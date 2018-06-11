@@ -1,1 +1,1 @@
-web: google-form-extractor
+web: ./bin/formdress
