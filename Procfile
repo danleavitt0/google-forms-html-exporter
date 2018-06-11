@@ -1,1 +1,1 @@
-web: ./bin/formdress-heroku
+web: ./bin/formdress
