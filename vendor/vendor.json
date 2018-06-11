@@ -18,8 +18,7 @@
 			"importpath": "golang.org/x/net/html",
 			"repository": "https://go.googlesource.com/net",
 			"revision": "fe686d45ea04bc1bd4eff6a52865ce8757320325",
-			"branch": "master",
-			"path": "/html"
+			"branch": "master"
 		}
 	]
 }
