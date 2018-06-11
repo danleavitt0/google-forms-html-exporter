@@ -37,6 +37,7 @@ type Field struct {
 	ID     int       `json:"id"`
 	Label  string    `json:"label"`
 	Desc   string    `json:"desc"`
+	Class  string    `json:"class"`
 	TypeID FieldType `json:"typeid"`
 
 	Widgets []Widget `json:"widgets"`
@@ -363,7 +364,6 @@ func FormExtract(content io.Reader) (*Form, error) {
 	s = strings.Replace(s, "var FB_PUBLIC_LOAD_DATA_ =", "", -1)
 	s = strings.Replace(s, ";", "", -1)
 	s = strings.TrimSpace(s)
-
 	form := &Form{}
 	json.Unmarshal([]byte(s), form)
 	form.Fbzx = fbzx
