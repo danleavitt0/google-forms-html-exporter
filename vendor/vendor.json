@@ -1,6 +1,7 @@
 {
 	"version": 0,
-	"dependencies": [
+	"rootPath": "https://github.com/danleavitt0/google-forms-html-exporter",
+	"package": [
 		{
 			"importpath": "github.com/PuerkitoBio/goquery",
 			"repository": "https://github.com/PuerkitoBio/goquery",
